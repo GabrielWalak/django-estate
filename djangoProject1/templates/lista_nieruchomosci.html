@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lista Nieruchomości</title>
+</head>
+<body>
+    <h1>Lista Nieruchomości</h1>
+    <ul>
+        {% for nieruchomosc in nieruchomosci %}
+            <li>{{ nieruchomosc }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
